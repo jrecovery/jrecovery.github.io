@@ -388,7 +388,7 @@ div{
 .menu .social-links{
     width: 100%;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     gap: 20px;
     /* position: fixed; */
@@ -1689,13 +1689,14 @@ div{
 }
 
 .pay-mex{
-    position: fixed;
-    bottom: 20px;
+    /* position: fixed; */
+    /* bottom: 20px; */
     width: 100%;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 0;
+    /* left: 0; */
     gap: 20px;
     transition: all 0.5s ease;
     transform: translateY(100px);
