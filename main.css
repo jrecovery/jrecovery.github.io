@@ -1220,6 +1220,90 @@ div{
     /* background-position: center; */
 }
 
+.client:nth-child(5) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-vi.jpg);
+    background-position: center;
+}
+
+.client:nth-child(6) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-vii.jpg);
+    background-position: center;
+}
+
+.client:nth-child(7) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-viii.jpeg);
+    /* background-position: center; */
+}
+
+.client:nth-child(8) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-ix.jpg);
+    background-position: center;
+}
+.client:nth-child(19) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-x.jpg);
+    background-position: center;
+}
+.client:nth-child(9) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-xi.jpg);
+    background-position: center;
+}
+.client:nth-child(10) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-xii.jpg);
+    background-position: center;
+}
+.client:nth-child(11) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-xiii.jpg);
+    background-position: center;
+}
+.client:nth-child(12) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-xiv.jpg);
+    background-position: center;
+}
+.client:nth-child(13) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-xv.jpg);
+    background-position: center;
+}
+.client:nth-child(14) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-xvi.jpeg);
+    background-position: center;
+}
+.client:nth-child(15) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-xvii.jpeg);
+    background-position: center;
+}
+.client:nth-child(16) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-xviii.jpg);
+    background-position: center;
+}
+.client:nth-child(17) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-xix.jpg);
+    background-position: center;
+}
+.client:nth-child(18) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-xx.jpg);
+    background-position: center;
+}
+.client:nth-child(20) .client--img{
+    background-size: cover;
+    background-image: url(./img/client-i.jpg);
+    background-position: center;
+}
+
 .testimonials > div:last-child{
     width: 100%;
     padding: 0 10vw;
@@ -1485,7 +1569,7 @@ div{
     }
 }
 
-@media screen and (min-width:1799px) {
+@media screen and (min-width:17990px) {
     .clients-holder::-webkit-scrollbar{
         width: 0px;
         height: 0px;
