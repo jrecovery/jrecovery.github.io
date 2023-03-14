@@ -1809,7 +1809,7 @@ div{
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s ease;
-    background-color: #2528298b;
+    background-color: #0d0e0e8b;
     backdrop-filter: blur(4px);
 }
 
