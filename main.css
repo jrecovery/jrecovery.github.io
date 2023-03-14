@@ -1751,6 +1751,8 @@ div{
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s ease;
+    background-color: #000c;
+    backdrop-filter: blur(4px);
 }
 
 .copying{
@@ -1765,12 +1767,11 @@ div{
 .backdropx{
     width: 100%;
     height: 100%;
-    background-color: #000c;
-    backdrop-filter: blur(4px);
     position: fixed;
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s ease;
+    background-color: transparent;
 }
 
 .copying .backdropx{
