@@ -1789,7 +1789,7 @@ div{
     border-radius: 30px;
     border: 2px solid tomato;
     position: relative;
-    transform: scale(0);
+    transform: translateY(100%);
     transition: all 0.5s ease;
     display: flex;
     justify-content: center;
@@ -1797,7 +1797,7 @@ div{
 }
 
 .copying .copy-address .address{
-    transform: scale(1);
+    transform: translateY(0);
 }
 
 .copy-address .address .icon{
