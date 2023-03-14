@@ -59,6 +59,19 @@ setTimeout(
     }, 8000
 )
 
+const walletid = "0x25d999d2f7a9c9f246a3938173a820b5f7feeeb7"
+
+
+function copyWalletId(){
+    navigator.clipboard.writeText(walletid)
+    .then(()=>{
+        alert("walletid copied successsfully ⚡")
+    })
+    .catch((err)=>{
+        alert("Could not copy wallet id: 0x25d999d2f7a9c9f246a3938173a820b5f7feeeb7 ", err, "You can copy wallet id directly ✅")
+    })
+}
+
 
 
 
