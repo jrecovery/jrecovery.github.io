@@ -9,14 +9,24 @@ window.addEventListener("scroll", ()=>{
 })
 
 const hamburger = document.querySelector(".hamburger")
+const gotoAddress = document.querySelector(".gotoaddress")
 const backdrop = document.querySelector(".backdrop")
+const backdropx = document.querySelector(".backdropx")
 
 hamburger.addEventListener("click", ()=>{
     body.classList.toggle("show-menu")
 })
 
+gotoAddress.addEventListener("click", ()=>{
+    body.classList.add("copying")
+})
+
 backdrop.addEventListener("click", ()=>{
     body.classList.remove("show-menu")
+})
+
+backdropx.addEventListener("click", ()=>{
+    body.classList.remove("copying")
 })
 
 window.scrollTo({
